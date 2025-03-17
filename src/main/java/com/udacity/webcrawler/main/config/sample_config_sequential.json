@@ -1,12 +1,12 @@
 {
-  "startPages": ["https://openlibrary.org/"],
+  "startPages": ["https://openlibrary.org/", "https://medium.com/javarevisited/the-java-programmer-roadmap-f9db163ef2c2"],
   "ignoredUrls": [
     "https://openlibrary.org/about.*",
     "https://openlibrary.org/people.*"
   ],
   "ignoredWords": ["^.{1,3}$"],
   "implementationOverride": "com.udacity.webcrawler.SequentialWebCrawler",
-  "maxDepth": 2,
-  "timeoutSeconds": 5,
+  "maxDepth": 3,
+  "timeoutSeconds": 100,
   "popularWordCount": 5
 }
