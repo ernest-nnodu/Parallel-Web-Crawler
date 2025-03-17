@@ -58,7 +58,7 @@ final class ParallelWebCrawler implements WebCrawler {
                     .setParserFactory(parserFactory)
                     .setUrl(url)
                     .setDeadline(deadline)
-                    .setMaxDepth(maxDepth - 1)
+                    .setMaxDepth(maxDepth)
                     .setIgnoredUrls(ignoredUrls)
                     .setCounts(counts)
                     .setVisitedUrls(visitedUrls)

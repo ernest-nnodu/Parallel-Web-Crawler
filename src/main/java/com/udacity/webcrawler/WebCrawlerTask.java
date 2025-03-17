@@ -10,7 +10,6 @@ import java.time.Instant;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentMap;
-import java.util.concurrent.RecursiveAction;
 import java.util.concurrent.RecursiveTask;
 import java.util.regex.Pattern;
 
@@ -153,5 +152,4 @@ public class WebCrawlerTask extends RecursiveTask<CrawlResult> {
                     counts, visitedUrls);
         }
     }
-
 }
